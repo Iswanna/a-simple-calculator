@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-flex {
+    width: 450px;
+}
+.input-screen {
+    height: 150px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.row button {
+    width:90px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 40px;
+}
